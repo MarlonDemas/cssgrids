@@ -88,7 +88,7 @@ and wrapping the duplicate in a mobile-first media query (I’m using 500px as t
         grid-template-columns: 1fr;
         grid-template-rows: 80px auto 80px;
         grid-gap: 20px;
-
+        /* Making all the items in the grid into 1 column to be reponsive for mobile device */
         grid-template-areas: 
             "header"
             "main"
